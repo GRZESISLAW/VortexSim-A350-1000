@@ -1,0 +1,21 @@
+/* temp_stylePlugin:ni:sha-256;hlNRPZOOwVxMs4RBl74Wcpks1mgsdGKSxefaYzNJPdA */
+@font-face {
+  font-family: "Digital";
+  src: url(/Fonts/A339X/AirbusBAT.ttf) format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+.bat-svg {
+  background-color: hsl(55, 82%, 2%);
+  box-shadow: inset 0px 0px 110px -20px rgba(255, 255, 255, 0.25);
+  height: 100%;
+  width: 100%;
+  left: 0;
+  opacity: 0.5;
+}
+text {
+  fill: hsl(0, 0%, 100%);
+  font-family: Digital;
+  font-size: 52px;
+  text-anchor: end;
+}
